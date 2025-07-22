@@ -51,7 +51,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Mis posts</h1>
+      <h1>Mis posts de prueba</h1>
       <div className="posts-grid">
         {posts.map((post) => (
           <div key={post.id} className="post-card">
