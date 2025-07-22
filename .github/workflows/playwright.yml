@@ -1,6 +1,6 @@
 name: Pruebas de Playwright y Despliegue de Vercel
 on:
-  push:
+  pull_request:
     branches: [main]
   workflow_dispatch:
 
